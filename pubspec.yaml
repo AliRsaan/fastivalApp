@@ -16,6 +16,7 @@ dependencies:
   flutter_bloc: ^8.1.1
   dio: ^4.0.6
   modal_progress_hud_nsn: ^0.3.0
+  bottom_navy_bar: ^6.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,8 +1,10 @@
-import 'package:fastival/screen/home_page.dart';
+import 'package:fastival/landing_page.dart';
 import 'package:flutter/material.dart';
+
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   @override
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  HomePage(),
+      home: LandingPage(),
     );
   }
 }
